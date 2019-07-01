@@ -312,7 +312,7 @@
             event.preventDefault();
             // this.contact_number.value = Math.random() * 100000 | 0;
             if(this.url.value == "") {
-               	// emailjs.sendForm('yahoo', 'contactform', this);
+               	emailjs.sendForm('yahoo', 'contactform', this);
                	$(this).find('input:not([type=submit]),textarea, select').val('').end();
                 $("#messageSuccess").css("display", "block");
             }
