@@ -308,11 +308,6 @@
 	});
 
 	window.onload = function() {
-		 (function() {
-			 $.get("./contact-modal.html", function(data){
-	   			 $("#contact-modal").html(data);
-			});
-		 })();
         document.getElementById('contact-form').addEventListener('submit', function(event) {
             event.preventDefault();
             // this.contact_number.value = Math.random() * 100000 | 0;
