@@ -309,8 +309,8 @@
 
 	window.onload = function() {
 		 (function() {
-			 $.get("./navbar.html", function(data){
-	   			 $("#navvv").html(data);
+			 $.get("./contact-modal.html", function(data){
+	   			 $("#contact-modal").html(data);
 			});
 		 })();
         document.getElementById('contact-form').addEventListener('submit', function(event) {

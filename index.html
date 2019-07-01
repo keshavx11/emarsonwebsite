@@ -38,7 +38,56 @@
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-	  <div id="navvv"></div>
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	    	<a href="index.html" class="site-logo">
+				<img src="images/emarson_logo.png" height="44px" alt="">
+			</a>
+		     <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span>Menu</button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"><span>Home</span></a></li>
+	          <li class="nav-item dropdown"><a href="#about-section" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"><span>About</span></a>
+	          	<ul class="dropdown-menu pl-3">
+	                <li><a href="about.html#overview">Overview</a></li>
+	                <li><a href="about.html#differentiators">Differentiators</a></li>
+	                <li><a href="about.html#vision">Vision</a></li>
+	            </ul>
+	          </li>
+		      <li class="nav-item dropdown"><a href="#solution-section" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"><span>Solutions</span></a>
+		        <ul class="dropdown-menu pl-3">
+	                <li><a href="networking.html">Networking Solutions</a></li>
+	                <li><a href="security.html">Security Solutions</a></li>
+	                <li><a href="data-center.html">Data Center Solutions</a></li>
+	                <li><a href="wireless.html">Wireless Solutions</a></li>
+	                <li><a href="cloud.html">Cloud Solutions</a></li>
+	            </ul>
+	          </li>
+	          <li class="nav-item dropdown"><a href="#services-section" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"><span>Services</span></a>
+	          	<ul class="dropdown-menu pl-3">
+	                <li><a href="managed-services.html">Managed Services</a></li>
+	                <li><a href="cisco-services.html">Cisco Services</a></li>
+	            </ul>
+	          </li>
+		      <li class="nav-item"><a href="#partners-section" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"><span>Partners</span></a></li>
+	          <li class="nav-item"><a href="#customers-section" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"><span>Customers</span></a></li>
+	          <li class="nav-item dropdown"><a href="#resources-section" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"><span>Resources</span></a>
+	            <ul class="dropdown-menu pl-3">
+	                <li><a href="case-studies.html">Case Studies</a></li>
+	                <li><a href="catalogues.html">Product Catalogues</a></li>
+	                <li><a href="collaterals.html">Collaterals &amp; Brochures</a></li>
+	                <!-- <li><a href="#">Events</a></li> -->
+	            </ul>
+	          </li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"><span>Contact</span></a></li>
+	          <li class="nav-item cta"><a href="#" class="nav-link" data-toggle="modal" data-target="#modalAppointment">Request a Quote</a></li>
+	          </div>
+	        </ul>
+	      </div>
+	    </div>
+	</nav>
 
 	  <section class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');" data-section="home">
       <div class="overlay"></div>
@@ -731,7 +780,9 @@
 
 
 	<!-- Modal -->
-	<div class="modal fade" id="modalAppointment" tabindex="-1" role="dialog" aria-labelledby="modalAppointmentLabel" aria-hidden="true">
+	<div id="contact-modal"></div>
+
+<!-- 	<div class="modal fade" id="modalAppointment" tabindex="-1" role="dialog" aria-labelledby="modalAppointmentLabel" aria-hidden="true">
 	  <div class="modal-dialog" role="document">
 	    <div class="modal-content">
 	      <div class="modal-header">
@@ -763,7 +814,7 @@
 	      </div>
 	    </div>
 	  </div>
-	</div>
+	</div> -->
 
 
   <script src="js/jquery.min.js"></script>
