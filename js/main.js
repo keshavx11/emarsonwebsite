@@ -301,25 +301,34 @@
 
   $('#appointment_time').timepicker();
 
+  // $( "navvv" ).html('navbar.html');
+
   $(function(){
 	   emailjs.init("user_fSaQrYr8wqzboQQLY7kbO");
 	});
 
 	window.onload = function() {
+		 (function() {
+			 $.get("./navbar.html", function(data){
+	   			 $("#navvv").html(data);
+			});
+		 })();
         document.getElementById('contact-form').addEventListener('submit', function(event) {
             event.preventDefault();
-            console.log('hi');
             // this.contact_number.value = Math.random() * 100000 | 0;
             if(this.url.value == "") {
-               	emailjs.sendForm('yahoo', 'contactform', this);
+               	// emailjs.sendForm('yahoo', 'contactform', this);
+               	$(this).find('input:not([type=submit]),textarea, select').val('').end();
+                $("#messageSuccess").css("display", "block");
             }
         });
         document.getElementById('request-quote-form').addEventListener('submit', function(event) {
-        	console.log('hi');
             event.preventDefault();
             // this.contact_number.value = Math.random() * 100000 | 0;
             if (this.url.value == "") {
                	emailjs.sendForm('yahoo', 'contactform', this);
+               	$(this).find('input:not([type=submit]),textarea, select').val('').end();
+                $("#messageSuccess").css("display", "block");
             }
         });
     };
