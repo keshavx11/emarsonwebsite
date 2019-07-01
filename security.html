@@ -12,22 +12,6 @@
 	</script>
 
     <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
-    <script type="text/javascript">
-        (function(){
-           emailjs.init("user_fSaQrYr8wqzboQQLY7kbO");
-        })();
-    </script>
-    <script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
-                event.preventDefault();
-                // this.contact_number.value = Math.random() * 100000 | 0;
-                if this.url.value == "" {
-               		emailjs.sendForm('yahoo', 'contactform', this);
-                }
-            });
-        }
-    </script>
 	
     <title>Security Solutions - Emarson Infotech Pvt. Ltd.</title>
     <meta charset="utf-8">
@@ -243,38 +227,39 @@
 
 
 	<!-- Modal -->
-	<div class="modal fade" id="modalAppointment" tabindex="-1" role="dialog" aria-labelledby="modalAppointmentLabel" aria-hidden="true">
-	  <div class="modal-dialog" role="document">
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <h5 class="modal-title" id="modalAppointmentLabel">Appointment</h5>
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-	          <span aria-hidden="true">&times;</span>
-	        </button>
-	      </div>
-	      <div class="modal-body">
-	        <form id="contact-form">
-	          <div class="form-group">
-	            <label for="appointment_name" class="text-black">Full Name</label>
-	            <input name="name" type="text" class="form-control" id="appointment_name">
-	          </div>
-	          <div class="form-group">
-	            <label for="appointment_email" class="text-black">Email</label>
-	            <input name="email" type="text" class="form-control" id="appointment_email">
-	          </div>
-	          <p class="antispam">Leave this empty<br><input name="url"></p>
-	          <div class="form-group">
-	            <label for="appointment_message" class="text-black">Message</label>
-	            <textarea name="message" id="appointment_message" class="form-control" cols="30" rows="10"></textarea>
-	          </div>
-	          <div class="form-group">
-	            <input type="submit" value="Send Message" class="btn btn-primary">
-	          </div>
-	        </form>
-	      </div>
-	    </div>
-	  </div>
-	</div>
+  <div class="modal fade" id="modalAppointment" tabindex="-1" role="dialog" aria-labelledby="modalAppointmentLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalAppointmentLabel">Appointment</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="request-quote-form">
+            <div class="form-group">
+              <label for="appointment_name" class="text-black">Full Name</label>
+              <input name="name" type="text" class="form-control" id="appointment_name">
+            </div>
+            <div class="form-group">
+              <label for="appointment_email" class="text-black">Email</label>
+              <input name="email" type="text" class="form-control" id="appointment_email">
+            </div>
+            <p class="antispam">Leave this empty<br><input name="url"></p>
+            <div class="form-group">
+              <label for="appointment_message" class="text-black">Message</label>
+              <textarea name="message" id="appointment_message" class="form-control" cols="30" rows="10"></textarea>
+            </div>
+            <div class="form-group d-flex align-items-center">
+              <input type="submit" value="Send Message" class="btn btn-primary">
+              <div class="antispam text-success pl-3" id="messageSuccess2">Message Sent</div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <script src="js/jquery.min.js"></script>

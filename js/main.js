@@ -301,7 +301,6 @@
 
   $('#appointment_time').timepicker();
 
-  // $( "navvv" ).html('navbar.html');
 
   $(function(){
 	   emailjs.init("user_fSaQrYr8wqzboQQLY7kbO");
@@ -314,16 +313,19 @@
             if(this.url.value == "") {
                	emailjs.sendForm('yahoo', 'contactform', this);
                	$(this).find('input:not([type=submit]),textarea, select').val('').end();
-                $("#messageSuccess").css("display", "block");
+                $("#messageSuccess1").css("display", "block");
             }
         });
+    };
+
+    window.onload = function() {
         document.getElementById('request-quote-form').addEventListener('submit', function(event) {
             event.preventDefault();
             // this.contact_number.value = Math.random() * 100000 | 0;
             if (this.url.value == "") {
                	emailjs.sendForm('yahoo', 'contactform', this);
                	$(this).find('input:not([type=submit]),textarea, select').val('').end();
-                $("#messageSuccess").css("display", "block");
+                $("#messageSuccess2").css("display", "block");
             }
         });
     };
