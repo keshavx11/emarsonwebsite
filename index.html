@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141757441-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-141757441-1');
+	</script>
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+           emailjs.init("user_fSaQrYr8wqzboQQLY7kbO");
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // this.contact_number.value = Math.random() * 100000 | 0;
+                if(this.url.value == "") {
+	               	emailjs.sendForm('yahoo', 'contactform', this);
+                }
+            });
+            document.getElementById('request-quote-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // this.contact_number.value = Math.random() * 100000 | 0;
+                if (this.url.value == "") {
+	               	emailjs.sendForm('yahoo', 'contactform', this);
+                }
+            });
+        }
+    </script>
+	
+    <title>Emarson Infotech Pvt. Ltd. &#8211; Managing Networks effortlessly &#8230;&#8230;&#8230;&#8230;</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	 
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	    	<a href="index.html" class="site-logo">
+				<img src="images/emarson_logo.png" height="44px" alt="">
+			</a>
+		     <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span>Menu</button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"><span>Home</span></a></li>
+	          <li class="nav-item dropdown"><a href="#about-section" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"><span>About</span></a>
+              	<ul class="dropdown-menu pl-3">
+	                <li><a href="about.html#overview">Overview</a></li>
+	                <li><a href="about.html#differentiators">Differentiators</a></li>
+	                <li><a href="about.html#vision">Vision</a></li>
+                </ul>
+	          </li>
+		      <li class="nav-item dropdown"><a href="#solution-section" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"><span>Solutions</span></a>
+		        <ul class="dropdown-menu pl-3">
+	                <li><a href="networking.html">Networking Solutions</a></li>
+	                <li><a href="security.html">Security Solutions</a></li>
+	                <li><a href="data-center.html">Data Center Solutions</a></li>
+	                <li><a href="wireless.html">Wireless Solutions</a></li>
+	                <li><a href="cloud.html">Cloud Solutions</a></li>
+                </ul>
+              </li>
+	          <li class="nav-item dropdown"><a href="#services-section" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"><span>Services</span></a>
+	          	<ul class="dropdown-menu pl-3">
+	                <li><a href="managed-services.html">Managed Services</a></li>
+	                <li><a href="cisco-services.html">Cisco Services</a></li>
+                </ul>
+              </li>
+		      <li class="nav-item"><a href="#partners-section" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"><span>Partners</span></a></li>
+	          <li class="nav-item"><a href="#customers-section" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"><span>Customers</span></a></li>
+	          <li class="nav-item dropdown"><a href="#resources-section" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"><span>Resources</span></a>
+	            <ul class="dropdown-menu pl-3">
+	                <li><a href="case-studies.html">Case Studies</a></li>
+	                <li><a href="catalogues.html">Product Catalogues</a></li>
+	                <li><a href="collaterals.html">Collaterals &amp; Brochures</a></li>
+	                <!-- <li><a href="#">Events</a></li> -->
+                </ul>
+              </li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show"><span>Contact</span></a></li>
+	          <li class="nav-item cta"><a href="#" class="nav-link" data-toggle="modal" data-target="#modalAppointment">Request a Quote</a></li>
+              </div>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+
+	  <section class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');" data-section="home">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
+          <div class="col-md-6 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Grow your business like never before</h1>
+            <p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">With seamless adaptation of Wireless</p>
+            <p><a href="#" class="btn btn-primary py-3 px-4" data-toggle="modal" data-target="#modalAppointment">Request a Quote</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section ftco-counter ftco-no-pt ftco-no-pb img" id="section-counter">
+    	<div class="container">
+    		<div class="row d-md-flex align-items-center justify-content-end">
+    			<div class="col-lg-12">
+    				<div class="ftco-counter-wrap">
+	    				<div class="row no-gutters d-md-flex align-items-center align-items-stretch">
+			          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+			            <div class="block-18">
+			              <div class="text">
+			              	<div class="icon d-flex justify-content-center align-items-center">
+			              		<span class="flaticon-house"></span>
+			              	</div>
+			                <strong class="number" data-number="28">0</strong>
+			                <span>Years of Experienced</span>
+			              </div>
+			            </div>
+			          </div>
+			          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+			            <div class="block-18">
+			              <div class="text">
+			              	<div class="icon d-flex justify-content-center align-items-center">
+			              		<span class="flaticon-hand-shake"></span>
+			              	</div>
+			                <strong class="number" data-number="200">0</strong>
+			                <span>Trusted Clients</span>
+			              </div>
+			            </div>
+			          </div>
+			          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+			            <div class="block-18">
+			              <div class="text">
+			              	<div class="icon d-flex justify-content-center align-items-center">
+			              		<span class="flaticon-worker"></span>
+			              	</div>
+			                <strong class="number" data-number="40">0</strong>
+			                <span>Qualified Engineers</span>
+			              </div>
+			            </div>
+			          </div>
+			          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+			            <div class="block-18">
+			              <div class="text">
+			              	<div class="icon d-flex justify-content-center align-items-center">
+			              		<span class="flaticon-medal"></span>
+			              	</div>
+			                <strong class="number" data-number="100">0</strong>
+			                <span>Honors &amp; Awards</span>
+			              </div>
+			            </div>
+			          </div>
+		          </div>
+		        </div>
+          </div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-about ftco-no-pt ftco-no-pb img ftco-section bg-light" id="about-section">
+    	<div class="container">
+    		<div class="row d-flex">
+    			<div class="col-md-6 col-lg-6 d-flex order-md-last">
+    				<div class="img-about img d-flex align-items-stretch">
+	    				<div class="img d-flex align-self-stretch align-items-end" style="background-image:url(images/about.jpg);">
+	    					<a href="about.html" class="icon-video d-flex justify-content-center align-items-center mr-3">
+	    						<span class="watch">Know More</span>
+	    					</a>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-6 col-lg-6 pr-lg-5 py-3 py-lg-5">
+    				<div class="row justify-content-start py-3 py-lg-5">
+		          <div class="col-md-12 heading-section ftco-animate">
+		          	<span class="subheading">Welcome</span>
+		            <h2 class="mb-4" style="font-size: 44px; text-transform: capitalize;">Welcome to Emarson India</h2>
+		            <p>Emarson is a holistic network infrastructure service provider with clients from public as well as private sector enterprises. We have partnered with many multi-national companies such as Cisco, CommScope, and HP to provide our clients with high growth opportunities.</p>
+		            <p>As a comprehensive, enterprise networking solutions provider, we integrate networking seamlessly into your system. Emarson with its 24 years of rich experience aims to make technology work for you and to make the most out of it by deploying holistic and multiple networking solutions that will help leverage your business. Our experience and expertise has helped us garner clients from various verticals both from public and private enterprises. Our wide range of solutions includes wireless, mobility, security, storage, computing etc. We typically offer design, implement and support data, voice and video networks from many multinationals, PSUs and corporate.</p>
+		          </div>
+		        </div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section ftco-no-pb ftco-services" id="solution-section">
+      <div class="container">
+      	<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<span class="subheading">Solutions</span>
+            <h2 class="mb-4">Solutions</h2>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-md-5 col-lg-3 ftco-animate py-4 nav-link-wrap">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link px-4 py-1 active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true"><span class="mr-3 flaticon-ideas"></span> Networking Solutions</a>
+
+              <a class="nav-link px-4 py-1" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false"><span class="mr-3 flaticon-flasks"></span> Security Solutions</a>
+
+              <a class="nav-link px-4 py-1" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false"><span class="mr-3 flaticon-analysis"></span> Datacenter Solutions</a>
+
+              <a class="nav-link px-4 py-1" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false"><span class="mr-3 flaticon-web-design"></span> Wireless Solutions</a>
+
+
+              <a class="nav-link px-4 py-1" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false"><span class="mr-3 flaticon-innovation"></span> Cloud Solutions</a>
+            </div>
+          </div>
+          <div class="col-md-7 col-lg-9 ftco-animate p-4 p-md-5 d-flex align-items-center">
+            
+            <div class="tab-content pl-lg-4" id="v-pills-tabContent">
+
+              <div class="tab-pane fade show active py-0 py-lg-5" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+              	<div class="d-lg-flex">
+	              	<div class="icon-law mr-md-4 mr-lg-5">
+		                <span class="icon mb-3 d-block flaticon-data"></span>
+		              </div>
+		              <div class="text">
+		                <h2 class="mb-4">Networking Solutions</h2>
+		                <p>Networking Solutions form the core of your IT. It is the central-most hub of your organization and the most crucial channels through which there is exchange of information.</p>
+		                <p><a href="networking.html" class="btn btn-primary px-4 py-3">Learn More</a></p>
+	                </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade py-0 py-lg-5" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+              	<div class="d-lg-flex">
+	              	<div class="icon-law mr-md-4 mr-lg-5">
+		                <span class="icon mb-3 d-block flaticon-shield"></span>
+		              </div>
+		              <div class="text">
+		                <h2 class="mb-4">Security Solutions</h2>
+		                <p>Data is invaluable to any organization and with latest technologies there are newer security threats too that organizations have to deal with. Therefore our Security solutions are holistic in nature and intend to protect each and every aspect of your IT to let your business soar unrestricted.
+		                </p>
+		                <p><a href="security.html" class="btn btn-primary px-4 py-3">Learn More</a></p>
+	                </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade py-0 py-lg-5" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
+              	<div class="d-lg-flex">
+	              	<div class="icon-law mr-md-4 mr-lg-5">
+		                <span class="icon mb-3 d-block flaticon-server"></span>
+	                </div>
+	                <div class="text">
+		                <h2 class="mb-4">Datacenter Solutions</h2>
+		                <p>Data center is where all your activities happen. It is here where all your invaluable data is stored managed and maintained to be retrieved when most needed. A robust Data center therefore is the need of the time.</p>
+		                <p><a href="data-center.html" class="btn btn-primary px-4 py-3">Learn More</a></p>
+	                </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade py-0 py-lg-5" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
+              	<div class="d-lg-flex">
+	              	<div class="icon-law mr-md-4 mr-lg-5">
+		                <span class="icon mb-3 d-block flaticon-wifi"></span>
+	                </div>
+	                <div class="text">
+		                <h2 class="mb-4">Wireless Solutions</h2>
+		                <p>Digital revolution is incomplete without wireless as this is the necessary innovation that optimizes connectivity. Emarson realizes the power of wireless and the necessary security implications too.</p>
+		                <p><a href="wireless.html" class="btn btn-primary px-4 py-3">Learn More</a></p>
+	                </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade py-0 py-lg-5" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab">
+              	<div class="d-lg-flex">
+	              	<div class="icon-law mr-md-4 mr-lg-5">
+		                <span class="icon mb-3 d-block flaticon-cloud"></span>
+	                </div>
+	                <div class="text">
+		                <h2 class="mb-4">Cloud Solutions</h2>
+		                <p>IT has been revolutionized and network does not mean a mesh of wires anymore. Network also means going wireless and still being connected and Cloud is one of the deciding factors for how well you are going to sustain in the competition today.</p>
+		                <p><a href="cloud.html" class="btn btn-primary px-4 py-3">Learn More</a></p>
+	                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-about ftco-no-pb img ftco-section bg-light" id="services-section">
+        <div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<span class="subheading">Services</span>
+            <h2 class="mb-4">Services</h2>
+          </div>
+        </div>
+    	<div class="container">
+    		<div class="row d-flex">
+    			<div class="col-md-6 col-lg-6 d-flex order-md-last">
+    				<div class="img-about img d-flex align-items-stretch">
+	    				<div class="img d-flex align-self-stretch align-items-end" style="background-image:url(images/image-1.jpg);">
+	    					<a href="managed-services.html" class="icon-video d-flex justify-content-center align-items-center mr-3">
+	    						<span class="watch">Know More</span>
+	    					</a>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-6 col-lg-6 pr-lg-5 py-3 py-lg-5">
+    				<div class="row justify-content-start py-3 py-lg-5">
+		          <div class="col-md-12 heading-section ftco-animate">
+		            <h2 class="mb-4" style="font-size: 44px; text-transform: capitalize;">Managed Services</h2>
+		            <p>With digital transformation IT organizations are coping up with a lot of changes in the IT environment. Right from new technologies to preparing the work-force to adapt these new technologies, also adjusting to new security protocols to compliances, the whole shift has been overwhelming.</p>
+		            <p>Emarson steps in to make this change bearable and comfortable and making it easy for assimilation into your organization. We manage your IT from day-to-day infrastructure to all the operational activities in order to help you understand the changing IT landscape. With technical expertise and experience we help you reduce costs at all levels and bring in more profitability.</p>
+		          </div>
+		        </div>
+	        </div>
+        </div>
+    	</div>
+
+    	<div class="container">
+    		<div class="row d-flex">
+    			<div class="col-md-6 col-lg-6 d-flex">
+    				<div class="img-about img d-flex align-items-stretch">
+	    				<div class="img d-flex align-self-stretch align-items-end" style="background-image:url(images/image-2.jpg);">
+	    					<a href="cisco-services.html" class="icon-video d-flex justify-content-center align-items-center mr-3">
+	    						<span class="watch">Know More</span>
+	    					</a>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-6 col-lg-6 pl-lg-5 py-5">
+    				<div class="row justify-content-start pb-3">
+		          <div class="col-md-12 heading-section ftco-animate pb-5">
+		            <h2 class="mb-4" style="font-size: 44px; text-transform: capitalize;">Cisco Services</h2>
+		            <p>At Cisco we provide proactive, pre-emptive technical services for hardware, software, multivendor solutions, and network environments. Our global team enhances IT operations, helping to ensure your IT works simply, consistently, and securely to keep your business running smoothly.</p>
+		          </div>
+		        </div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+		
+    <!-- <section class="ftco-section" id="blog-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+            <span class="subheading">Blog</span>
+            <h2 class="mb-4">Our Blog</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+          		<div class="text">
+          			<h3 class="heading"><a href="single.html">All you want to know about industrial laws</a></h3>
+          		</div>
+              <a href="single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <div class="d-flex align-items-center mt-4 meta">
+	                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
+	                <p class="ml-auto mb-0">
+	                	<a href="#" class="mr-2">Admin</a>
+	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+	                </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+          		<div class="text">
+          			<h3 class="heading"><a href="single.html">All you want to know about industrial laws</a></h3>
+          		</div>
+              <a href="single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <div class="d-flex align-items-center mt-4 meta">
+	                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
+	                <p class="ml-auto mb-0">
+	                	<a href="#" class="mr-2">Admin</a>
+	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+	                </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry">
+          		<div class="text">
+          			<h3 class="heading"><a href="single.html">All you want to know about industrial laws</a></h3>
+          		</div>
+              <a href="single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <div class="d-flex align-items-center mt-4 meta">
+	                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
+	                <p class="ml-auto mb-0">
+	                	<a href="#" class="mr-2">Admin</a>
+	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+	                </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ -->
+    <section class="ftco-about img ftco-section" id="partners-section">
+        <div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<span class="subheading">Our Partners</span>
+            <h2 class="mb-4">Our Partners</h2>
+          </div>
+        </div>
+	        <div class="row customers">
+	            <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/partners/cisco.png" width="150px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/partners/symantec.png" width="150px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/partners/radware.png" width="150px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/partners/fortinet.png" width="150px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	        </div>
+	        <div class="row customers">
+	            <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/partners/commscope.png" width="150px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/partners/schneider.png" width="150px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/partners/riverbed.png" width="150px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/partners/aruba.png" width="150px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	        </div>
+	        <div class="row customers">
+	            <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/partners/molex.png" width="150px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/partners/f5-networks.png" width="80px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/partners/websense.png" width="150px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/partners/sophos.png" width="150px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	        </div>
+    </section>
+
+    <section class="ftco-about img ftco-section bg-light" id="customers-section">
+        <div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<span class="subheading">Our Customers</span>
+            <h2 class="mb-4">Our Customers</h2>
+          </div>
+        </div>
+	        <div class="row customers">
+    	        <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/customers/kpmg.png" width="150px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/customers/sony.png" width="150px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/customers/ntpc.png" width="120px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/customers/ndtv.png" width="150px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	        </div>
+	        <div class="row customers">
+	            <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/customers/indian-oil.png" width="80px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/customers/tata-sky.png" width="150px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/customers/whirlpool.png" width="150px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/customers/dabur.png" width="80px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	        </div>
+	        <div class="row customers">
+	        	<div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/customers/delhi-metro.png" width="150px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/customers/bloomberg.png" width="170px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/customers/indiabulls.png" width="150px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	            <div class="col-md-3 col-sm-6 d-flex align-items-center justify-content-center">
+	                <a href="#" target="_blank">
+	                    <img src="images/customers/niit.png" width="130px" class="img-responsive img-centered" alt="">
+	                </a>
+	            </div>
+	        </div>
+    </section>
+
+	<section class="ftco-about ftco-no-pb img ftco-section">
+        <div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<span class="subheading">Testimonials</span>
+            <h2 class="mb-4">Testimonials</h2>
+          </div>
+        </div>
+    	<div class="container">
+    		<div class="row d-flex">
+    			<div class="col-md-12 col-lg-12 pl-lg-5 py-5">
+		          <div class="col-md-12 testimony-section">
+								<div class="owl-carousel carousel-testimony">
+									<div class="item">
+										<div class="testimony-wrap">
+				          		<div class="text mb-5">
+				          			<div class="icon">
+				          				<span class="icon-quote-left"></span>
+				          			</div>
+				          			<p>We really appreciate the work done by Emarson for taking the ownership and completing the Data center activity, before the Global audit, which we passed because of Emarson. We really appreciate the work done and also for the backend support you have provided during that critical times.</p>
+				          		</div>
+				          		<div class="d-flex">
+				          			<!-- <div class="user-img img mr-3" style="background-image: url(images/testimonials/person_1.jpg);"></div> -->
+				          			<div>
+				          				<p class="name mb-0">IT Manager</p>
+			                    <span class="position">A Multinational Enterprise Group</span>
+				          			</div>
+				          		</div>
+				          	</div>
+									</div>
+									<div class="item">
+										<div class="testimony-wrap">
+				          		<div class="text mb-5">
+				          			<div class="icon">
+				          				<span class="icon-quote-left"></span>
+				          			</div>
+				          			<p>Emarson has demonstrated a high degree of flexibility and professionalism enabling us to meet the strategic goals for our IT initiatives. Their commitment to quality and execution excellence has made a significant difference. By leveraging Emarson’s expertise in the Network /Security Infrastructure and its in-depth knowledge of IT product suite, we have been able to improve and transform IT infrastructure. Emarson Team has demonstrated its Skills on various IT product suits and always ready to support at any level. Emarson's involvement in clients communication and staying connected until it is fully delivered is remarkable ,post Implementation support is key factor that makes Emarson special for any project.</p>
+				          		</div>
+				          		<div class="d-flex">
+				          			<!-- <div class="user-img img mr-3" style="background-image: url(images/testimonials/person_2.jpg);"></div> -->
+				          			<div>
+				          				<p class="name mb-0">IT Manager</p>
+			                    <span class="position">IT Company</span>
+				          			</div>
+				          		</div>
+				          	</div>
+									</div>
+									<div class="item">
+										<div class="testimony-wrap">
+				          		<div class="text mb-5">
+				          			<div class="icon">
+				          				<span class="icon-quote-left"></span>
+				          			</div>
+				          			<p>Thank you team Emarson for your help and support to complete relocation of all the structure cablings(phase-I) from two temp racks to permanent racks in our [MTB] new office datacenter as per agreed timeline. We also appreciate Emarson team for their hard work and dedication to complete penta scanning as per our requirement.</p>
+				          		</div>
+				          		<div class="d-flex">
+				          			<!-- <div class="user-img img mr-3" style="background-image: url(images/testimonials/person_3.jpg);"></div> -->
+				          			<div>
+				          			<p class="name mb-0">IT Manager</p>
+			                   		<span class="position">Multinational IT Group</span>
+				          			</div>
+				          		</div>
+				          	</div>
+						</div>
+					</div>
+		          </div>
+		        </div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section contact-section ftco-no-pb bg-light" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+            <span class="subheading">Contact</span>
+            <h2 class="mb-4">Contact Us</h2>
+          </div>
+        </div>
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>A-67, Sector - 4, Noida – 201301, India</p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://1206219800">+91-120 – 6219800/01</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="mailto:info@emarsonindia.com">info@emarsonindia.com</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-4">Website</h3>
+	            <p><a href="#">emarsonindia.com</a></p>
+	          </div>
+          </div>
+        </div>
+        <div class="row no-gutters block-9">
+          <div class="col-md-6 order-md-last d-flex">
+            <form id="contact-form" class="bg-primary p-5 contact-form">
+              <div class="form-group">
+                <input name="name" type="text" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <input name="email" type="text" class="form-control" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <input name="subject" type="text" class="form-control" placeholder="Subject">
+              </div>
+			  <p class="antispam">Leave this empty<br><input name="url"></p>
+              <div class="form-group">
+                <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Send Message" class="btn btn-darken py-3 px-5">
+              </div>
+            </form>
+          
+          </div>
+
+          <div class="col-md-6 d-flex">
+          	<div id="map" class="bg-white"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+
+    <footer class="ftco-footer ftco-section ftco-no-pb">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">About Emarson</h2>
+              <p>Emarson Computers is a complete networking solution provider for IT infrastructure. We design, implement and support data and voice communication networks for many multinational, Public sector units and reputed Indian corporate.</p>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="#home-section"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
+                <li><a href="#about-section"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
+                <li><a href="#solution-section"><span class="icon-long-arrow-right mr-2"></span>Solutions</a></li>
+                <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
+                <li><a href="#partners-section"><span class="icon-long-arrow-right mr-2"></span>Our Partners</a></li>
+                <li><a href="#customers-section"><span class="icon-long-arrow-right mr-2"></span>Our Customers</a></li>
+                <li><a href="#resources-section"><span class="icon-long-arrow-right mr-2"></span>Resources</a></li>
+                <li><a href=""><span class="icon-long-arrow-right mr-2"></span>Careers</a></li>
+                <li><a href="#contact-section"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Solutions</h2>
+              <ul class="list-unstyled">
+				<li><a href="networking.html"><span class="icon-long-arrow-right mr-2"></span>Networking Solutions</a></li>
+                <li><a href="security.html"><span class="icon-long-arrow-right mr-2"></span>Security Solutions</a></li>
+                <li><a href="data-center.html"><span class="icon-long-arrow-right mr-2"></span>Datacenter Solutions</a></li>
+                <li><a href="wireless.html"><span class="icon-long-arrow-right mr-2"></span>Wireless Solutions</a></li>
+                <li><a href="cloud.html"><span class="icon-long-arrow-right mr-2"></span>Cloud Solutions</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have Questions?</h2>
+            	<div class="block-23 mb-0">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">A-67, Sector - 4, Noida – 201301, India
+	                </span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91-120 – 6219800/01
+	                </span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@emarsonindia.com</span></a></li>
+	              </ul>
+	            </div>
+	            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-4">
+                <li class="ftco-animate"><a href="https://twitter.com/EmarsonITSol" target="_blank"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.facebook.com/emarson.india" target="_blank"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.linkedin.com/company/emarson-computers/" target="_blank"><span class="icon-linkedin"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center small">
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  			Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+		    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="modalAppointment" tabindex="-1" role="dialog" aria-labelledby="modalAppointmentLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="modalAppointmentLabel">Appointment</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <form id="request-quote-form">
+	          <div class="form-group">
+	            <label for="appointment_name" class="text-black">Full Name</label>
+	            <input name="name" type="text" class="form-control" id="appointment_name">
+	          </div>
+	          <div class="form-group">
+	            <label for="appointment_email" class="text-black">Email</label>
+	            <input name="email" type="text" class="form-control" id="appointment_email">
+	          </div>
+	          <p class="antispam">Leave this empty<br><input name="url"></p>
+	          <div class="form-group">
+	            <label for="appointment_message" class="text-black">Message</label>
+	            <textarea name="message" id="appointment_message" class="form-control" cols="30" rows="10"></textarea>
+	          </div>
+	          <div class="form-group">
+	            <input type="submit" value="Send Message" class="btn btn-primary">
+	          </div>
+	        </form>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.explanguage%3Den&#038;key=AIzaSyAmYp92K1tRLIshHNykyCqjVj7ve1FBfwc&#038;ver=4.1.6.1"></script>
+  <script src="js/google-map.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
