@@ -62,7 +62,6 @@
 	};
 	burgerMenu();
 
-
 	var onePageClick = function() {
 
 
@@ -300,9 +299,30 @@
 	  'autoclose': true
 	});
 
-	$('#appointment_time').timepicker();
+  $('#appointment_time').timepicker();
 
+  $(function(){
+	   emailjs.init("user_fSaQrYr8wqzboQQLY7kbO");
+	});
 
+	window.onload = function() {
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            console.log('hi');
+            // this.contact_number.value = Math.random() * 100000 | 0;
+            if(this.url.value == "") {
+               	emailjs.sendForm('yahoo', 'contactform', this);
+            }
+        });
+        document.getElementById('request-quote-form').addEventListener('submit', function(event) {
+        	console.log('hi');
+            event.preventDefault();
+            // this.contact_number.value = Math.random() * 100000 | 0;
+            if (this.url.value == "") {
+               	emailjs.sendForm('yahoo', 'contactform', this);
+            }
+        });
+    };
 
 })(jQuery);
 
