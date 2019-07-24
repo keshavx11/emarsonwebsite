@@ -9475,3 +9475,23 @@ textarea.form-control {
 .dark-text li a span {
   color: #6c757d !important;
 }
+
+/*---------------------
+  Highlights Section
+-----------------------*/
+
+.highlight-section {
+  /*height: 99px;*/
+  transform: translateY(-50%);
+}
+
+.highlight:last-child .highlights:after {
+  display: none;
+}
+
+.highlight-container {
+  text-align: center;
+  -webkit-box-shadow: 0 14px 43px rgba(33, 54, 61, 0.15);
+   box-shadow: 0 14px 43px rgba(33, 54, 61, 0.15);
+}
+

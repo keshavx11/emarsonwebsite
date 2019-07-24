@@ -27,6 +27,27 @@
 	};
 	fullHeight();
 
+	var halfHeight = function() {
+
+		$('.js-halfheight').css('height', $(window).height()/2);
+		$(window).resize(function(){
+			$('.js-halfheight').css('height', $(window).height()/2);
+		});
+
+	};
+	halfHeight();
+
+	var solutionTranslate = function() {
+
+		$('.solution-translate').css({'transform':`translateY(-${$(window).height()/2}px)`, 'margin-bottom': `${-$(window).height()/2}px`});
+		$(window).resize(function(){
+			console.log($('.solution-fullheight').height(), $(window).height()/2);
+			$('.solution-translate').css({'transform':`translateY(-${$(window).height()/2}px)`, 'margin-bottom': `${-$(window).height()/2}px`});
+		});
+
+	};
+	solutionTranslate();
+
 	// loader
 	var loader = function() {
 		setTimeout(function() { 
